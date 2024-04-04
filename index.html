@@ -5,8 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <div>
+        <h1>BMI Calculator</h1>
+        <form>
+            <p><label>Height in CM:<input type="text" id="height"></label></p>
+            <p><label>Weight in KG<input type="text" id="weight"></label></p>
+            <div id="result"></div>
+            <button>Calculate</button>
+            <div>
+                <h3>BMI weight guide</h3>
+                <P>Under Weight = Less than 18.6</P>
+                <P>Normal Weight = 18.6 - 24.9</P>
+                <P>Over Weight = Greater than 24.9</P>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="main.js"></script>
 </body>
 </html>
