@@ -8,15 +8,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div>
-        <h1>BMI Calculator</h1>
+    <div class="text-center mt-32">
+        <h1 class="font-bold text-3xl mb-10">BMI Calculator</h1>
         <form>
-            <p><label>Height in CM:<input type="text" id="height"></label></p>
-            <p><label>Weight in KG<input type="text" id="weight"></label></p>
-            <div id="result"></div>
-            <button>Calculate</button>
-            <div>
-                <h3>BMI weight guide</h3>
+            <p class="font-semibold mb-2"><label>Height in CM:<input class="pl-4 " type="text" id="height"></label></p>
+            <p class="font-semibold"><label>Weight in KG:<input class="pl-4 " type="text" id="weight"></label></p>
+            <div class="mt-8 mb-10 font-semibold text-2xl" id="result"></div>
+            <button class="py-2 px-4 bg-slate-400 rounded-md font-semibold hover:bg-slate-300 active:bg-slate-200">Calculate</button>
+            <div id="weight-guide" class="mt-5">
+                <h3 class="mb-4 font-semibold text-2xl">BMI weight guide</h3>
                 <P>Under Weight = Less than 18.6</P>
                 <P>Normal Weight = 18.6 - 24.9</P>
                 <P>Over Weight = Greater than 24.9</P>
